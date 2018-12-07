@@ -1,17 +1,13 @@
 /*
 Theme Name: Newsroom Child
 Theme URI: http://newsroom.elated-themes.com/
-Description: A child theme of Newsroom Theme
+Description: A child theme of Newsroom Theme by madu
 Author: Elated Themes
 Author URI: http://themeforest.net/user/elated-themes
 Version: 1.0.0
 Text Domain: newsroom
 Template: newsroom
 */
-.stop {
-  display: flex;
-  background-color: black; /*10:01*/
-}
 
 body {
  /*  scroll-behavior: smooth; */
