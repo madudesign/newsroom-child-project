@@ -290,11 +290,24 @@ display: none;
 }
 
 
+/****************** reduce vertical images categorys *******************/
+.category-vertical img {
+    width: 81%;
+    padding: 0px 65px;
+}
+
+
 /* Tablets in portrait mode (768-980px) */
 @media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
       .category-vertical img {
       width: 81%;
       padding: 0px 53px;
+    }
+    .wpb_widgetised_column .widget.widget_tag_cloud a, aside.eltd-sidebar .widget.widget_tag_cloud a {
+        height: 26px;
+        line-height: 26px;
+        padding: 0 11px;
+        font-size: 0.6em!important;
     }
 }
 /* Smartphones in landscape mode (480-768px) */
@@ -302,6 +315,12 @@ display: none;
       .category-vertical img {
     width: 81%;
     padding: 0px 35px;
+    }
+    .wpb_widgetised_column .widget.widget_tag_cloud a, aside.eltd-sidebar .widget.widget_tag_cloud a {
+        height: 26px;
+        line-height: 26px;
+        padding: 0 11px;
+        font-size: 0.6em!important;
     }
 }
 
@@ -311,6 +330,12 @@ display: none;
     width: 81%;
     padding: 0px 25px;
     }
+    .wpb_widgetised_column .widget.widget_tag_cloud a, aside.eltd-sidebar .widget.widget_tag_cloud a {
+        height: 26px;
+        line-height: 26px;
+        padding: 0 11px;
+        font-size: 0.6em!important;
+    }
 }
 
 /* Smartphones in portrait mode (0-479px) */
@@ -318,5 +343,11 @@ display: none;
       .category-vertical img {
     width: 81%;
     padding: 0px 17px;
+    }
+    .wpb_widgetised_column .widget.widget_tag_cloud a, aside.eltd-sidebar .widget.widget_tag_cloud a {
+        height: 26px;
+        line-height: 26px;
+        padding: 0 11px;
+        font-size: 0.6em!important;
     }
 }
